@@ -10,8 +10,9 @@ smp.graphics.SVG >> https://github.com/sergiompereira/js-utils-and-resources
 
 
 ## Usage
-<pre>
-	<![CDATA[
+
+``` javascript
+
 	var unit = 20;
 	document.getElementById("canvas-container").appendChild(SvgIsoLib.createStage(800,500,unit));
 
@@ -26,8 +27,8 @@ smp.graphics.SVG >> https://github.com/sergiompereira/js-utils-and-resources
 	}
 	
 	var block = SvgIsoLib.isoBlock(1,1,SvgIsoLib.point3D(300,1,200), "#ffffff");
-	]]>
-</pre>
+	
+```
 	
 
 
